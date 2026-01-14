@@ -3,7 +3,7 @@
     font: weight 0.9em;
 }
 .head img{
-    width: 100%;
+    max-width: 100%;
 }
 .head{
     display: flex;
@@ -17,6 +17,8 @@
     margin: 10px;
 
 
+
+
 }
 .nav a:hover{
     background-color:rgb(176, 228, 231);
@@ -27,6 +29,9 @@
     padding: 7px;
     cursor: pointer;
     border-radius: 5px;
+}
+.but:hover{
+    background-color:gray;
 }
 .image img{
     width: 100%;
@@ -84,6 +89,8 @@ p,a{
     cursor: pointer;
     background-color: aquamarine;
 }
+
+
 
 
 /* Start of Notes section */
@@ -144,8 +151,12 @@ p{
     height: 75%;
     text-align: left;
 }
+.hard{
+    display: block;
+    list-style: none;
 
 
+}
 .credit,.brain1,p{
     font-size: small;
 }
@@ -174,4 +185,46 @@ p{
 }
 .bb:hover{
     background-color: gray;
+}
+
+
+/* Last part */
+
+
+ .logo {
+    background: rgb(9, 9, 54);
+    padding: 25px 50px;
+    color: rgb(213, 181, 181);
+}
+
+
+.icon {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.s1 img {
+    height: 40px;
+}
+
+
+.s2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+
+.social img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.copyright{
+    text-align: center;
 }
