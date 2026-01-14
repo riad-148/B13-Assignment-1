@@ -144,15 +144,34 @@ p{
     height: 75%;
     text-align: left;
 }
-.hard{
-    display: block;
-    list-style: none;
-}
+
+
 .credit,.brain1,p{
     font-size: small;
 }
-
-
 .o{
     color: rgb(109, 155, 109);
+}
+/* early access section */
+.learn{
+    background-color: white;
+    color: rgb(79, 136, 79);
+    text-align: center;
+    height: 100%;
+    width: 100;
+}
+.divi{
+    background-color: rgb(241, 235, 235);
+    margin:10px 20px ;
+    padding: 30px;
+    border-radius: 10px;
+}
+.bb{
+    background-color: rgb(79, 136, 79) ;
+    width: 25%;
+    height: 50%;
+    border-radius: 10px;
+}
+.bb:hover{
+    background-color: gray;
 }
